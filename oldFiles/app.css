@@ -1,0 +1,167 @@
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background-color: #419D78;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.mainNavbar{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+#section1{
+    width: 100%;
+    display: table;
+    margin: 0;
+    max-width: none;
+    height: 100vh;
+    background-color: #419D78;
+    background-repeat:no-repeat;
+    background-size: 100%;
+}
+
+.skills{
+    padding-left: 10%;
+}
+
+.jumbotron {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.jumbotron hr{
+    margin-top: 4.5rem;
+}
+
+.skillicons{
+    font-size: 4rem;
+    color: black;
+}
+
+.resumeIcon{
+    font-size: 4rem;
+    color: black;
+}
+
+#picOfMe {
+    border-radius: 50%;
+    width: 35%;
+    height: 35%;
+    padding-bottom: 20px;
+}
+
+.socialmedialinks{
+    font-size: 1.5rem;
+    color: whitesmoke;
+    margin-right: 1.25rem;
+}
+
+.display-4{
+    font-size: 2.5rem;
+}
+
+.information{
+    padding-right: 5%;
+    padding-top: 2%;
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Old Standard TT', serif;
+    font-weight: bold;
+}
+
+.information2{
+    padding-right: 5%;
+    /*padding-top: 2%;*/
+    /*padding-bottom: 8%;*/
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Old Standard TT', serif;
+    font-weight: bold;
+}
+
+.information h1{
+    padding-top: 35px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Old Standard TT', serif;
+}
+
+.information hr{
+    width: 35%;
+    background-color: white;
+}
+
+.contactinfo{
+    padding-top: 10px;
+    padding-bottom: 5%;
+}
+
+#kenny{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:1492px){
+    .resumeIcon{
+        font-size: 3rem;
+    }
+    .skillicons{
+        font-size: 3rem;
+    }
+    .jumbotron h1{
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width:1108px){
+    .resumeIcon{
+        font-size: 2rem;
+    }
+    .skillicons{
+        font-size: 2rem;
+    }
+    .jumbotron h1{
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width:1080px){
+    .resumeIcon{
+        font-size: 1.25rem;
+    }
+    .skillicons{
+        font-size: 1.25rem;
+    }
+    .jumbotron h1{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:768px){
+    .resumeIcon{
+        font-size: 1.25rem;
+    }
+    .skillicons{
+        font-size: 1.25rem;
+    }
+    .jumbotron h1{
+        font-size: 1.5rem;
+    }
+    .information h1{
+        font-size: 3rem;
+    }
+}

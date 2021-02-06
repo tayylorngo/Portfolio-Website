@@ -1,0 +1,183 @@
+html, body{
+    overflow-x: hidden;
+
+    background: #34e89e;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0f3443, #34e89e);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #0f3443, #34e89e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    margin: 0;
+    height: 100%;
+}
+
+.mainNavbar{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    padding-right: 5rem;
+    padding-left: 7rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+hr{
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 100%;
+}
+
+#section1 {
+    text-align: center;
+    color: white;
+}
+
+#section1 h1{
+    margin-bottom: 20px;
+    font-family: 'Arvo', serif;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.photo{
+    text-align: right;
+}
+
+#aboutMePic{
+    margin-top: 5%;
+    margin-right: 10%;
+}
+
+#bio{
+    margin-top: 2%;
+    text-align: left;
+    display: block;
+}
+
+#bio p{
+    font-size: 1.5rem;
+    width: 75%;
+}
+
+#authorBio{
+    text-align: right;
+}
+
+.display-4{
+    font-size: 2.5rem;
+}
+
+#section2 .display-4{
+    margin-top: 1%;
+}
+
+#section2{
+    margin-top: 4%;
+    text-align: center;
+    border-top: 1px solid black;
+    color: white;
+}
+
+#section2 .lead{
+    font-size: 1.5rem;
+}
+
+.skillsTitle{
+    margin-top: 2%;
+    font-size: 3.5rem;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+    font-family: 'Fredoka One', cursive;
+}
+
+.skillHeading h1{
+    font-size: 2.5rem;
+}
+
+
+.programmingicons{
+    font-size: 4rem;
+}
+
+#section2 i{
+    font-size: 3.5rem;
+    color: white;
+    margin-right: 20px;
+}
+
+#section3{
+    text-align: center;
+    border-top: 1px solid black;
+    color: white;
+}
+
+
+#section3 .tableTennisLink a{
+    color: lightblue;
+}
+
+#section3 .chessLinks a{
+    color: lightblue;
+}
+
+#section3 i{
+    font-size: 3.5rem;
+}
+
+#section3 .display-4{
+    margin-top: 3%;
+}
+
+#section4{
+    text-align: center;
+    border-top: solid 1px black;
+}
+
+#section4 i{
+    font-size: 3rem;
+    color: white;
+    margin-right: 20px;
+}
+
+.jobLoc{
+    margin-top: 1%;
+    color: white;
+    font-size: 3rem;
+}
+
+.jobTitle{
+    color: white;
+    font-size: 2rem;
+}
+
+.jobDesc{
+    margin-top: 1%;
+    text-align: left;
+    font-size: 1.25rem;
+    color: white;
+}
+
+#section4 hr{
+    width: 40%;
+    color: black;
+}
+
+/*#tweet{*/
+/*    text-align: center;*/
+/*    vertical-align: middle;*/
+/*    line-height: 90px;*/
+/*    margin-left: 25%;*/
+/*}*/
+
+@media screen and (max-width:1440px){
+    #bio p{
+        font-size: 1rem;
+    }
+    img{
+        height: 75%;
+        width: 75%;
+    }
+}
+

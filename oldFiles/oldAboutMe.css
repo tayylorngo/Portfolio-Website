@@ -1,0 +1,146 @@
+html, body{
+    overflow-x: hidden;
+    background-color: #69D1C5;
+    margin: 0;
+    height: 100%;
+}
+
+#section1{
+    background-color: #AFCBFF;
+    margin-bottom: 0;
+}
+
+.mainNavbar{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+hr{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#aboutMePictureHeading{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#aboutMePictureHeading h1{
+    font-size: 3rem;
+    padding-bottom: 20px;
+    padding-top: 2%;
+}
+
+#aboutMePic{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    padding-bottom: 25px;
+}
+
+#bio{
+    margin-top: 1.5%;
+    text-align: center;
+    padding-left: 32.5%;
+    padding-right: 32.5%;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    padding-bottom: 3%;
+    color: black;
+}
+
+#authorBio{
+    text-align: right;
+}
+
+#section2{
+    border-top: 1px solid black;
+    background-color: #AEECEF;
+    text-align: center;
+    margin: 0;
+}
+
+#section2 .jumbotron{
+    text-align: center;
+    border: 1px solid black;
+}
+
+#section2 .jumbo{
+    text-align: center;
+    /*width: 75%;*/
+}
+
+#section2 .display-4{
+    font-size: 2.5rem;
+    padding-bottom: 3%;
+}
+
+#section2 .lead{
+    font-size: 1.5rem;
+}
+
+#section2 #techTitle{
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    padding-top: 2%;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+#section3{
+    border-top: 1px solid black;
+    background-color: #69D1C5;
+    text-align: center;
+    margin: 0;
+}
+
+#section3 .jumbotron{
+    text-align: center;
+    border: 1px solid black;
+}
+
+#section3 .jumbo{
+    text-align: center;
+    /*width: 75%;*/
+}
+
+#section3 .display-4{
+    font-size: 3rem;
+    padding-bottom: 3%;
+}
+
+#section3 .lead{
+    font-size: 1.5rem;
+}
+
+#section3 #skillsTitle{
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    padding-top: 2%;
+    font-size: 3rem;
+    text-align: center;
+    padding-bottom: 2%;
+    font-weight: bold;
+}
+
+.programmingicons{
+    font-size: 6rem;
+    color: black;
+    letter-spacing: 20px;
+}
+
+@media screen and (max-width:768px){
+    #section3 .display-4{
+        font-size: 4rem;
+    }
+
+    #section3 .lead{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,83 @@
+html, body{
+    overflow-x: hidden;
+    background-color: #90ccf4;
+}
+
+.mainNavbar{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+#aboutMePictureHeading{
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+#aboutMePictureHeading h1{
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+
+#aboutMePic{
+    border-radius: 50%;
+    width: 15%;
+    height: 15%;
+    padding-bottom: 45px;
+}
+
+#bio{
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+    font-size: 2rem;
+    line-height: 2.5rem;
+    /*padding-bottom: 13.5%;*/
+    color: black;
+}
+
+#authorBio{
+    text-align: right;
+}
+
+.col-md-6{
+    border-left: solid 1px black;
+    border-right: solid 1px black;
+}
+
+.cards{
+    margin-bottom: 10%;
+    padding-left: 25%;
+    padding-bottom: 10%;
+    font-size: 1rem;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.carders{
+    order: 1;
+}
+
+.carders2{
+    order: 2;
+}
+
+.card{
+    border: 1px solid black;
+    padding-right: 0;
+}
+
+@media screen and (max-width:768px){
+    .aboutMe {
+        order: 1;
+    }
+   .carders{
+       order: 2;
+   }
+    .carders{
+        order: 3;
+    }
+}

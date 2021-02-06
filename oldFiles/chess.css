@@ -1,0 +1,71 @@
+html, body {
+    overflow-x: hidden;
+    background-color: #edf7f6;
+    /*background-color: white;*/
+    /*background-image: url("imgs/oculusbackground.jpg");*/
+    background-repeat:no-repeat;
+    background-size: cover;
+
+}
+
+.mainNavbar{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.mainPart{
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.title{
+    font-size: 4rem;
+}
+
+#bio{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 1.35rem;
+    line-height: 2.5rem;
+    padding-bottom: 2%;
+    color: black;
+    font-family: 'Caveat Brush', cursive;
+}
+
+#mainChessPic{
+    height: 75%;
+    width: 75%;
+}
+
+#mainChessPicDesc{
+    margin-top: 2%;
+    margin-left: 16%;
+    font-family: 'Yellowtail', cursive;
+}
+
+#secondChessPic{
+    padding-left: 15%;
+    height: 100%;
+    width: 100%;
+}
+
+#secondChessPicDesc{
+    margin-top: 2%;
+    margin-left: 15%;
+    font-family: 'Yellowtail', cursive;
+}
+
+.title2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.topPart{
+    padding-top: 20px;
+}
+

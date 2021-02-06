@@ -1,0 +1,120 @@
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    background: #1f4037;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    background-repeat:no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.mainNavbar{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 1rem;
+    padding-right: 5rem;
+    padding-left: 7rem;
+    font-family: 'Lato', sans-serif;
+}
+
+.container{
+    width: 100%;
+}
+
+hr{
+    margin: 0;
+}
+
+.logo{
+    text-align: left;
+}
+
+.section1{
+    text-align: center;
+}
+
+.info h2{
+    font-size: 2.75rem;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px;
+}
+
+.info h3{
+    margin-top: 30px;
+}
+
+.jumbotron{
+    margin-top: 8%;
+    margin-left: 20%;
+    background: transparent;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.jumbotron h1{
+    font-size: 5rem;
+    margin-bottom: 15px;
+}
+
+.jumbotron hr{
+    margin: 100px auto;
+    width: 50%;
+}
+
+#pictureOfMyself{
+    margin-top: 5%;
+    margin-left: 5%;
+    max-width: 100%;
+    box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+}
+
+.socialmedialinks{
+    font-size: 2rem;
+    margin-right: 1.25rem;
+    color: white;
+}
+
+#photocredits{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+
+button{
+    margin-top: 30px;
+}
+
+@media screen and (max-width:1440px) {
+    .jumbotron{
+        margin-left: 10%;
+    }
+    #pictureOfMyself{
+        margin-left: auto;
+    }
+    #photocredits{
+        margin-left: auto;
+    }
+}
+
+@media screen and (max-width:1242px){
+    .jumbotron{
+        margin-left: auto;
+    }
+    #pictureOfMyself{
+        margin-left: auto;
+    }
+    #photocredits{
+        margin-left: auto;
+    }
+    .section1{
+        order: 1;
+    }
+    .section2{
+        order: 2;
+    }
+}
