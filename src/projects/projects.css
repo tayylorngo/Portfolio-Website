@@ -31,6 +31,14 @@ html, body{
     color: white;
 }
 
+#depreciatedTitle{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    font-size: 4rem;
+    color: lightslategray;
+}
+
 .projectName{
     font-size: 2.5rem;
     font-family: 'Fredoka One', cursive;
